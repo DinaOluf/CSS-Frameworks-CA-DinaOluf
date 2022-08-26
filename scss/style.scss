@@ -1,39 +1,5 @@
-@use "custom";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-$primary: #00363a;
-$secondary: #f1d848;
-$tertiary: #ffffff;
+@import "./components/header";
 
-.navbar {
-    background-color: $primary;
-    min-height: 5rem;
-
-    div {
-        margin: 0 2rem 0 2rem;
-        color:  $tertiary;
-    }
-
-    .navbar-brand {
-        display: flex;
-        align-items: center;
-    }
-
-    span {  
-        color: $secondary;
-        font-size: 1.7em;
-        margin-left: 1rem;
-    }
-
-    img {
-        height: 3rem;
-        width: 3rem;
-    }
-
-    .dropdown {
-        padding-left: 3rem;
-    }
-
-    .dropdown-menu {
-        min-width: 7rem;
-    }
-}
+//Was the bootstrap file supposed to load last?

@@ -10763,24 +10763,15 @@ textarea.form-control-lg {
   min-height: 5rem;
 }
 .navbar div {
-  margin: 0 2rem 0 2rem;
   color: #ffffff;
-}
-.navbar .navbar-brand {
-  display: flex;
-  align-items: center;
 }
 .navbar span {
   color: #f1d848;
   font-size: 1.7em;
-  margin-left: 1rem;
 }
 .navbar img {
   height: 3rem;
   width: 3rem;
-}
-.navbar .dropdown {
-  padding-left: 3rem;
 }
 .navbar .dropdown-menu {
   min-width: 7rem;

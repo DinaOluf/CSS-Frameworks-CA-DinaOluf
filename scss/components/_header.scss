@@ -1,0 +1,27 @@
+$primary: #00363a;
+$secondary: #f1d848;
+$tertiary: #ffffff;
+
+.navbar {
+    background-color: $primary;
+    min-height: 5rem;
+
+    div {
+        color:  $tertiary;
+    }
+
+    span {  
+        color: $secondary;
+        font-size: 1.7em;
+    }
+
+    img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .dropdown-menu {
+        min-width: 7rem;
+    }
+}
+
