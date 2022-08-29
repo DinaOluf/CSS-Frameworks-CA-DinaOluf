@@ -1,0 +1,13 @@
+main {
+    background-color: $quaternary;
+    background-image: var(--bs-gradient);
+
+    #text-area {
+        resize: none;
+        border: none;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}

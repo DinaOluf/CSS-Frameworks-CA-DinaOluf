@@ -1,5 +1,5 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-
+@import "./components/colors";
 @import "./components/header";
-
-//Was the bootstrap file supposed to load last?
+@import "./components/main";
+@import "./components/footer";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

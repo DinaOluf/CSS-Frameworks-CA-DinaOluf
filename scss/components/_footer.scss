@@ -1,0 +1,18 @@
+
+footer {
+    background-color: $primary;
+    height: 4rem;
+
+    .nav-link {
+        color: $secondary;
+
+        &:hover {
+            color: $tertiary;
+        }
+    }
+
+    .active {
+        color: $tertiary;
+        text-decoration: underline;
+    }
+}

@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <meta name="description" content="Quack! A social media platform where you can keep in touch with your friends all over the world.">
+    <title>Quack | Home</title>
+    <link rel="stylesheet" href="./dist/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <div class="ms-4">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="/images/duck.png" alt="Duck Icon">
+                    <span class="ms-3">Quack</span>
+                </a>
+            </div>
+            <div class="nav-item dropdown px-4">
+                <a class="nav-link dropdown-toggle ms-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="/images/user.png" alt="Empty profile picture, as well as dropdown menu">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                    <li><a class="dropdown-item" href="/profile.html">Profile</a></li>
+                    <li><a class="dropdown-item" href="/login.html">Log In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex flex-column align-items-center py-4 .bg-quaternary.bg-gradient">
+
+    </main>
+    <footer>
+        <ul class="nav justify-content-center align-items-center h-100">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/login.html">Log In</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
