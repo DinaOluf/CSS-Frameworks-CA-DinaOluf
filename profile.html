@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Quack! A social media platform where you can keep in touch with your friends all over the world.">
-    <title>Quack | Home</title>
+    <meta name="description" content="Your Quack Profile! A social media platform where you can keep in touch with your friends all over the world.">
+    <title>Quack | Profile</title>
     <link rel="stylesheet" href="./dist/css/style.css">
 </head>
-<body>
+<body class="min-vh-100">
     <header>
         <nav class="navbar">
             <div class="ms-4">
-                <a class="navbar-brand d-flex align-items-center" href="#">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
                     <img src="/images/duck.png" alt="Duck Icon">
                     <span class="ms-3">Quack</span>
                 </a>
@@ -28,8 +28,82 @@
             </div>
         </nav>
     </header>
-    <main class="d-flex flex-column align-items-center py-4 .bg-quaternary.bg-gradient">
-
+    <main class="d-flex flex-column align-items-center py-4">
+        <section class="card mb-3 border-0 d-flex justify-content-center w-75">
+            <div class="profile-heading">
+                <img src="./images/duck-heading.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="profile-pic col-md-1 m-3">
+                <img src="/images/user.png" class="img-fluid rounded-circle" alt="User profile pic">
+            </div>
+            <div class="card-body mt-4">
+                <h2 class="card-title">Duckie Duckerson</h2>
+                <p class="card-text mb-3">Welcome to my profile! I am a happy duck ducking all day and all night!</p>
+            </div>  
+        </section>
+        <section class="d-flex justify-content-between w-75">
+            <div class="w-100">
+                <form id="write-message" class="card mb-3 d-flex flex-column p-3 w-50">
+                    <div class="d-flex">
+                        <div class="col-md-1 me-2">
+                            <img class="img-fluid rounded-start" src="./images/user.png" alt="User profile pic">
+                        </div>
+                        <div class="form-floating w-100">
+                            <textarea class="form-control fw-lighter" id="text-area"></textarea>
+                            <label for="text-area">Quack something...</label>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100 ps-5 align-self-end justify-content-between">
+                        <span class="text-muted ms-auto pe-2" id="word-counter">0/200 Words</span>
+                        <button type="submit" class="btn btn-primary w-50 ">Post Message</button>
+                    </div>
+                </form>
+                <div>
+                    <div class="card mb-3 w-50">
+                        <div class="row g-0">
+                          <div class="col-md-1 m-3">
+                            <img src="/images/unicorn-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title">Queen Tuttifrutti</h5>
+                              <p class="card-text">Don't call me princess. 👑</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3 w-50">
+                        <div class="row g-0">
+                          <div class="col-md-1 m-3">
+                            <img src="/images/unicorn-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title">Queen Tuttifrutti</h5>
+                              <p class="card-text">Don't call me princess. 👑</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3 w-50">
+                        <div class="row g-0">
+                          <div class="col-md-1 m-3">
+                            <img src="/images/unicorn-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title">Queen Tuttifrutti</h5>
+                              <p class="card-text">Don't call me princess. 👑</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <ul class="nav justify-content-center align-items-center h-100">

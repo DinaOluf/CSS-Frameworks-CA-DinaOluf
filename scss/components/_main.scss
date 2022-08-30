@@ -1,8 +1,12 @@
 main {
     background-color: $quaternary;
-    background-image: var(--bs-gradient);
+
+    #write-message {
+        border: solid 1px $primary;
+    }
 
     #text-area {
+        height: 8rem;
         resize: none;
         border: none;
 
@@ -10,4 +14,18 @@ main {
             box-shadow: none;
         }
     }
-}
+
+    .profile-heading {
+        height: 15rem;
+        overflow: hidden;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .profile-pic {
+        position: absolute;
+        top: 9rem;
+    }
+} 
+
+

@@ -1,4 +1,19 @@
 {
+  "name": "css-frameworks-ca-dinaoluf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaOluf/CSS-Frameworks-CA-DinaOluf.git"
+  },
+  "keywords": [],
+  "author": "Dina Olufsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinaOluf/CSS-Frameworks-CA-DinaOluf/issues"
+  },
+  "homepage": "https://github.com/DinaOluf/CSS-Frameworks-CA-DinaOluf#readme",
+  "description": "",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.0"
