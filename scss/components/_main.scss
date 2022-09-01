@@ -1,0 +1,36 @@
+main {
+    background-color: $quaternary;
+
+    #write-message {
+        border: solid 1px $primary;
+    }
+
+    #text-area {
+        height: 8rem;
+        resize: none;
+        border: none;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+} 
+
+#profile {
+
+    .profile-heading {
+        height: 15rem;
+        overflow: hidden;
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .profile-pic {
+        position: absolute;
+        top: 9rem;
+    }
+
+    .friends {
+        height: max-content;
+    }
+}
