@@ -7,12 +7,12 @@ footer {
         color: $secondary;
 
         &:hover {
-            color: $tertiary;
+            color: white;
         }
     }
 
     .active {
-        color: $tertiary;
+        color: white;
         text-decoration: underline;
     }
 }

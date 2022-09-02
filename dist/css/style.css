@@ -4,7 +4,7 @@
   min-height: 5rem;
 }
 .navbar div {
-  color: #ffffff;
+  color: white;
 }
 .navbar span {
   color: #f1d848;
@@ -55,10 +55,10 @@ footer .nav-link {
   color: #f1d848;
 }
 footer .nav-link:hover {
-  color: #ffffff;
+  color: white;
 }
 footer .active {
-  color: #ffffff;
+  color: white;
   text-decoration: underline;
 }
 
