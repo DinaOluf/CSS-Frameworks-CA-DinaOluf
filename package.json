@@ -19,6 +19,7 @@
     "bootstrap": "^5.2.0"
   },
   "devDependencies": {
+    "live-server": "^1.1.0",
     "sass": "^1.54.5"
   },
   "scripts": {

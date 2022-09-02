@@ -19,7 +19,7 @@
 }
 
 main {
-  background-color: #a8d6bb;
+  background-color: #b0e0c4;
 }
 main #write-message {
   border: solid 1px #00363a;
@@ -101,7 +101,8 @@ footer .active {
     max-width: 78%;
   }
   #profile .content .friends {
-    min-width: 100%;
+    min-width: 90%;
+    align-self: center;
   }
   #profile .content .friends .profile-header {
     display: flex;
@@ -112,6 +113,33 @@ footer .active {
   }
   #profile .content .friends .friends-img {
     width: 5rem;
+  }
+}
+@media (max-width: 780px) {
+  #index h1, #index .h1 {
+    min-width: 90%;
+  }
+  #index #write-message {
+    min-width: 90%;
+  }
+  #index #write-message img {
+    width: 3rem;
+  }
+  #index #write-message .count-button {
+    padding: 0 !important;
+  }
+  #index #write-message #word-counter {
+    margin-left: 0 !important;
+  }
+  #index .posts-wall .card {
+    min-width: 90%;
+  }
+  #index .posts-wall .message-img-wrapper {
+    max-width: 15%;
+    margin: 0.5rem !important;
+  }
+  #index .posts-wall .message-wrapper {
+    max-width: 78%;
   }
 }
 /*!
