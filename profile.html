@@ -28,8 +28,8 @@
             </div>
         </nav>
     </header>
-    <main class="d-flex flex-column align-items-center py-4">
-        <section class="heading card mb-3 border-0 d-flex justify-content-center w-75">
+    <main class="d-flex flex-column align-items-center pt-0">
+        <section class="heading card mb-3 border-0 d-flex justify-content-center col-12 col-md-9">
             <div class="profile-heading">
                 <img src="/images/duck-heading.jpg" class="card-img-top" alt="Profile heading">
             </div>
@@ -41,30 +41,30 @@
                 <p class="card-text mb-3">Welcome to my profile! I am a new and happy quacker!</p>
             </div>  
         </section>
-        <section class="content d-flex justify-content-between w-75">
-            <div class="write-message-wrapper me-2">
-                <form id="write-message" class="card mb-3 d-flex flex-column p-3">
-                    <div class="d-flex">
-                        <div class="col-md-1 me-2">
+        <section class="d-flex justify-content-center row p-0 col-12 col-md-9 gap-3">
+            <div class="write-message-wrapper col-md-8 col-11 p-0">
+                <form id="write-message" class="card mb-3 col-12 d-flex flex-column p-3">
+                    <div class="d-flex m-1 gap-1">
+                        <div class="col-md-1 col-sm-2 col-2">
                             <img class="img-fluid rounded-start" src="/images/user.png" alt="User profile pic">
                         </div>
-                        <div class="form-floating w-100">
-                            <textarea class="form-control fw-lighter" id="text-area"  placeholder="Your message here"></textarea>
-                            <label for="text-area">Quack something on this wall...</label>
+                        <div class="form-floating col-md-11">
+                            <textarea class="form-control fw-lighter" id="text-area" placeholder="Your message here"></textarea>
+                            <label for="text-area">Quack something...</label>
                         </div>
                     </div>
-                    <div class="count-button d-flex w-100 ps-5 align-self-end justify-content-between">
+                    <div class="count-button d-flex col-12 ps-5 align-self-end justify-content-between">
                         <span class="text-muted ms-auto pe-2" id="word-counter">0/200 Words</span>
-                        <button type="submit" class="btn btn-primary w-50 ">Post Message</button>
+                        <button type="submit" class="btn btn-primary col-6">Post Message</button>
                     </div>
                 </form>
                 <div>
-                    <div class="message card mb-3">
+                    <div class="card mb-3 col-12">
                         <div class="row g-0">
-                            <div class="message-img-wrapper col-md-1 m-3">
-                                <img src="/images/user.png" class="rounded-circle w-100" alt="User profile pic">
+                            <div class="message-img-wrapper col-md-1 col-2 m-3">
+                                <img src="/images/user.png" class="rounded-circle col-12" alt="User profile pic">
                             </div>
-                            <div class="message-wrapper col-md-10">
+                            <div class="message-wrapper col-md-10 col-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Duckie Duckerson</h5>
                                     <p class="card-text">I have no idea what to write on here!</p>
@@ -73,12 +73,12 @@
                             </div>
                         </div>
                     </div>
-                        <div class="message card mb-3">
-                            <div class="row g-0">
-                            <div class="message-img-wrapper col-md-1 m-3">
+                    <div class="card mb-3 col-12">
+                        <div class="row g-0">
+                            <div class="message-img-wrapper col-md-1 col-2 m-3">
                                 <img src="/images/unicorn-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
                             </div>
-                            <div class="message-wrapper col-md-10">
+                            <div class="message-wrapper col-md-10 col-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Queen Tuttifrutti</h5>
                                     <p class="card-text">Welcome to Quack!</p>
@@ -87,12 +87,12 @@
                             </div>
                         </div>
                       </div>
-                      <div class="message card mb-3">
+                      <div class="card mb-3 col-12">
                             <div class="row g-0">
-                                <div class="message-img-wrapper col-md-1 m-3">
+                                <div class="message-img-wrapper col-md-1 col-2 m-3">
                                     <img src="/images/user.png" class="img-fluid rounded-circle" alt="User profile pic">
                                 </div>
-                            <div class="message-wrapper col-md-10">
+                            <div class="message-wrapper col-md-10 col-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Duckie Duckerson</h5>
                                     <p class="card-text">This is my first post!</p>
@@ -103,54 +103,54 @@
                     </div>
                 </div>
             </div>
-            <div class="friends card col-4 mb-3 pb-3">
-                <h3 class="mt-2 ms-3">My Friends</h3>
-                <div class="profile-header m-2">
+            <div class="friends row card col-9 col-md-4 mb-3 pb-3">
+                <h3 class="mt-2 ps-3">My Friends</h3>
+                <div class="profile-header py-2">
                     <div class="row">
                         <div class="friends-img col-4">
                             <div class="col-md-12">
                                 <img src="/images/unicorn-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
                             </div>
                         </div>
-                        <div class="col-8">
-                            <h5 class="m-0 mb-1">Queen Tuttifrutti</h5>
-                            <span class="text-muted">Quack Queen</span>
-                            <div class="row row-cols-2 mt-2">
-                                <button class="btn btn-primary btn-round ms-2">Follow</button>
+                        <div class="col-8 row">
+                            <h5 class="m-0 p-0 mb-1">Queen Tuttifrutti</h5>
+                            <span class="text-muted p-0">Quack Queen</span>
+                            <div class="col-12 mt-2">
+                                <button class="btn btn-primary btn-round">Follow</button>
                             </div>
                         </div>  
                     </div>                    
                 </div>
                 <hr>
-                <div class="profile-header m-2">
+                <div class="profile-header py-2">
                     <div class="row">
                         <div class="friends-img col-4">
-                            <div class="col-md-12">
+                            <div class="col-12">
                                 <img src="/images/rubber-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
                             </div>
                         </div>
-                        <div class="col-8">
-                            <h5 class="m-0 mb-1">Duck2000</h5>
-                            <span class="text-muted">Daily quacks</span>
-                            <div class="row row-cols-2 mt-2">
-                                <button class="btn btn-primary btn-round ms-2">Follow</button>
+                        <div class="col-8 row">
+                            <h5 class="m-0 p-0 mb-1">Duck2000</h5>
+                            <span class="text-muted p-0">Daily quacks</span>
+                            <div class="col-12 mt-2">
+                                <button class="btn btn-primary btn-round">Follow</button>
                             </div>
                         </div>  
                     </div>                    
                 </div>
                 <hr>
-                <div class="profile-header m-2">
+                <div class="profile-header py-2">
                     <div class="row">
                         <div class="friends-img col-4">
                             <div class="col-md-12">
                                 <img src="/images/flamingo-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
                             </div>
                         </div>
-                        <div class="col-8">
-                            <h5 class="m-0 mb-1">Flamin-go</h5>
-                            <span class="text-muted">YouTuber</span>
-                            <div class="row row-cols-2 mt-2">
-                                <button class="btn btn-primary btn-round ms-2">Follow</button>
+                        <div class="col-8 row">
+                            <h5 class="m-0 p-0 mb-1">Flamin-go</h5>
+                            <span class="text-muted p-0">YouTuber</span>
+                            <div class="col-12 mt-2">
+                                <button class="btn btn-primary btn-round">Follow</button>
                             </div>
                         </div>  
                     </div>                    
