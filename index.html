@@ -19,7 +19,7 @@
             </div>
             <div class="nav-item dropdown px-4">
                 <a class="nav-link dropdown-toggle ms-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="/images/user.png" alt="Empty profile picture, as well as dropdown menu">
+                    <img src="/images/user.png" alt="Dropdown menu and profile picture">
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
                     <li><a class="dropdown-item" href="/profile.html">Profile</a></li>
@@ -28,141 +28,147 @@
             </div>
         </nav>
     </header>
-    <main class="d-flex flex-column align-items-center py-4">
-        <h1 class="align-self-start mb-4 w-50 align-self-center">Home <span class="text-muted fs-3">| Wall of Quacks</span></h1>
-        <form id="write-message" class="card mb-3 w-50 d-flex flex-column p-3">
-            <div class="d-flex">
-                <div class="col-md-1 me-2">
+    <main class="py-4">
+      <div class="row flex-column align-items-center">
+        <h1 class="col-md-6 col-sm-8 col-9 align-self-start mb-4 align-self-center">Home <span class="text-muted fs-3">| Wall of Quacks</span></h1>
+        <div class="row justify-content-center p-0">
+          <form id="write-message" class="card mb-3 col-md-6 col-sm-8 col-11 p-3">
+            <div class="row m-1">
+                <div class="col-2 col-xxl-1 ps-0">
                     <img class="img-fluid rounded-start" src="/images/user.png" alt="User profile pic">
                 </div>
-                <div class="form-floating w-100">
+                <div class="form-floating col-10 col-md-10">
                     <textarea class="form-control fw-lighter" id="text-area" placeholder="Your message here"></textarea>
                     <label for="text-area">Quack something...</label>
                 </div>
             </div>
-            <div class="count-button d-flex w-100 ps-5 align-self-end justify-content-between">
-                <span class="text-muted ms-auto pe-2" id="word-counter">0/200 Words</span>
-                <button type="submit" class="btn btn-primary w-50 ">Post Message</button>
+            <div class="count-button row w-100 ps-5 align-self-end justify-content-between">
+                <span class="text-muted col-6 text-end ms-auto pe-2" id="word-counter">0/200 Words</span>
+                <button type="submit" class="btn btn-primary col-6">Post Message</button>
             </div>
-        </form>
+          </form>
+        </div>
         <div id="posted-messages"></div>
-        <div class="posts-wall d-flex flex-column align-items-center">
-          <div class="card mb-3 w-50">
-            <div class="row g-0 d-flex flex-row">
-              <div class="message-img-wrapper col-md-1 m-3">
-                <img src="/images/unicorn-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
-              </div>
-              <div class="message-wrapper col-md-10">
-                <div class="card-body">
-                  <h5 class="card-title">Queen Tuttifrutti</h5>
-                  <p class="card-text">Don't call me princess. 👑</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="col-md-6 col-sm-8 col-11">
+          <div class="posts-wall row align-items-center">
+            <div class="card mb-3 col-12">
+              <div class="row g-0">
+                <div class="message-img-wrapper col-md-1 col-2 m-3">
+                  <img src="/images/unicorn-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                </div>
+                <div class="message-wrapper col-md-10 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Queen Tuttifrutti</h5>
+                    <p class="card-text">Don't call me princess. 👑</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3 w-50">
-            <div class="row g-0">
-              <div class="message-img-wrapper col-md-1 m-3">
-                <img src="/images/gentleman-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
-              </div>
-              <div class="message-wrapper col-md-10">
-                <div class="card-body">
-                  <h5 class="card-title">Eduardo</h5>
-                  <p class="card-text">all i want is an open-world lord of the rings life simulation game where i can choose to be either a hobbit, elf, dwarf, man, orc or wizard, living their daily life in their assigned location but also being able to travel to other locations</p>
-                  <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+            <div class="card mb-3 col-12">
+              <div class="row g-0">
+                <div class="message-img-wrapper col-md-1 col-2 m-3">
+                  <img src="/images/gentleman-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                </div>
+                <div class="message-wrapper col-md-10 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Eduardo</h5>
+                    <p class="card-text">all i want is an open-world lord of the rings life simulation game where i can choose to be either a hobbit, elf, dwarf, man, orc or wizard, living their daily life in their assigned location but also being able to travel to other locations</p>
+                    <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3 w-50">
-            <div class="row g-0">
-              <div class="message-img-wrapper col-md-1 m-3">
-                <img src="/images/uni-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
-              </div>
-              <div class="message-wrapper col-md-10">
-                <div class="card-body">
-                  <h5 class="card-title">UniHorn777</h5>
-                  <p class="card-text">Did you know that all bees are females bees? Except for the males bees, which aren’t bees. They’re drones, which are like bees, but aren’t.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+            <div class="card mb-3 col-12">
+              <div class="row g-0">
+                <div class="message-img-wrapper col-md-1 col-2 m-3">
+                  <img src="/images/uni-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                </div>
+                <div class="message-wrapper col-md-10 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">UniHorn777</h5>
+                    <p class="card-text">Did you know that all bees are females bees? Except for the males bees, which aren’t bees. They’re drones, which are like bees, but aren’t.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3 w-50">
-            <div class="row g-0">
-              <div class="message-img-wrapper col-md-1 m-3">
-                <img src="/images/flamingo-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
-              </div>
-              <div class="message-wrapper col-md-10">
-                <div class="card-body">
-                  <h5 class="card-title">Flamin-go</h5>
-                  <p class="card-text">Just saw the Elvis movie—was legit on the edge of my seat for 3 hours and I’ve never had to pee so bad in my life 😂😂😂 #worthit couldn’t miss a single minute. #ElvisMovie</p>
-                  <p class="card-text"><small class="text-muted">Last updated 47 mins ago</small></p>
+            <div class="card mb-3 col-12">
+              <div class="row g-0">
+                <div class="message-img-wrapper col-md-1 col-2 m-3">
+                  <img src="/images/flamingo-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                </div>
+                <div class="message-wrapper col-md-10 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Flamin-go</h5>
+                    <p class="card-text">Just saw the Elvis movie—was legit on the edge of my seat for 3 hours and I’ve never had to pee so bad in my life 😂😂😂 #worthit couldn’t miss a single minute. #ElvisMovie</p>
+                    <p class="card-text"><small class="text-muted">Last updated 47 mins ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3 w-50">
-            <div class="row g-0">
-              <div class="message-img-wrapper col-md-1 m-3">
-                <img src="/images/idk-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
-              </div>
-              <div class="message-wrapper col-md-10">
-                <div class="card-body">
-                  <h5 class="card-title">Weird Uncle</h5>
-                  <p class="card-text">Ahoy! Gonna play some nice tunes🎶 at church this saturday because I'm such a nice christian duck. Join us at 1PM.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 1 hour ago</small></p>
+            <div class="card mb-3 col-12">
+              <div class="row g-0">
+                <div class="message-img-wrapper col-md-1 col-2 m-3">
+                  <img src="/images/idk-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                </div>
+                <div class="message-wrapper col-md-10 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Weird Uncle</h5>
+                    <p class="card-text">Ahoy! Gonna play some nice tunes🎶 at church this saturday because I'm such a nice christian duck. Join us at 1PM.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 1 hour ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3 w-50">
-            <div class="row g-0">
-              <div class="message-img-wrapper col-md-1 m-3">
-                <img src="/images/rubber-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
-              </div>
-              <div class="message-wrapper col-md-10">
-                <div class="card-body">
-                  <h5 class="card-title">Duck2000</h5>
-                  <p class="card-text">Daily Quack</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 hours ago</small></p>
+            <div class="card mb-3 col-12">
+              <div class="row g-0">
+                <div class="message-img-wrapper col-md-1 col-2 m-3">
+                  <img src="/images/rubber-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                </div>
+                <div class="message-wrapper col-md-10 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Duck2000</h5>
+                    <p class="card-text">Daily Quack #263</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 hours ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3 w-50">
-            <div class="row g-0">
-              <div class="message-img-wrapper col-md-1 m-3">
-                <img src="/images/gamer-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
-              </div>
-              <div class="message-wrapper col-md-10">
-                <div class="card-body">
-                  <h5 class="card-title">AnaKatana</h5>
-                  <p class="card-text">🚨 LIVE FUNDRAISING FOR NARAL PRO-CHOICE AMERICA 🚨<br>
-                    <br>
-                    the overturning of Roe v Wade is detrimental and going to endanger the lives of people with uteruses in the US. if you have anything to donate, whether time or money, please stop by. <a href="#">http://twitch.tv/AnaKatana</a>
-                </p>
-                  <p class="card-text"><small class="text-muted">Last updated 10 hours ago</small></p>
+            <div class="card mb-3 col-12">
+              <div class="row g-0">
+                <div class="message-img-wrapper col-md-1 col-2 m-3">
+                  <img src="/images/gamer-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                </div>
+                <div class="message-wrapper col-md-10 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">AnaKatana</h5>
+                    <p class="card-text">🚨 LIVE FUNDRAISING FOR NARAL PRO-CHOICE AMERICA 🚨<br>
+                      <br>
+                      the overturning of Roe v Wade is detrimental and going to endanger the lives of people with uteruses in the US. if you have anything to donate, whether time or money, please stop by. <a href="#">http://twitch.tv/AnaKatana</a>
+                  </p>
+                    <p class="card-text"><small class="text-muted">Last updated 10 hours ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3 w-50">
-            <div class="row g-0">
-              <div class="message-img-wrapper col-md-1 m-3">
-                <img src="/images/macho-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
-              </div>
-              <div class="message-wrapper col-md-10">
-                <div class="card-body">
-                  <h5 class="card-title">Mr. Full-of-himself</h5>
-                  <p class="card-text">Just got hammered, went clubbing, brought 4 girls home as usual and did some not very questionable things.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
+            <div class="card mb-3 col-12">
+              <div class="row g-0">
+                <div class="message-img-wrapper col-md-1 col-2 m-3">
+                  <img src="/images/macho-duck.jpg" class="img-fluid rounded-circle" alt="User profile pic">
+                </div>
+                <div class="message-wrapper col-md-10 col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Mr. Full-of-himself</h5>
+                    <p class="card-text">Just got hammered, went clubbing, brought 4 girls home as usual and did some not very questionable things.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </main>
     <footer>
         <ul class="nav justify-content-center align-items-center h-100">

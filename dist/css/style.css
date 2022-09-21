@@ -4,7 +4,7 @@
   min-height: 5rem;
 }
 .navbar div {
-  color: #ffffff;
+  color: white;
 }
 .navbar span {
   color: #f1d848;
@@ -42,6 +42,7 @@ main #text-area:focus {
 #profile .profile-pic {
   position: absolute;
   top: 9rem;
+  width: 9rem;
 }
 #profile .friends {
   height: max-content;
@@ -55,93 +56,13 @@ footer .nav-link {
   color: #f1d848;
 }
 footer .nav-link:hover {
-  color: #ffffff;
+  color: white;
 }
 footer .active {
-  color: #ffffff;
+  color: white;
   text-decoration: underline;
 }
 
-@media (max-width: 850px) {
-  #profile main {
-    padding-top: 0 !important;
-  }
-  #profile .heading {
-    min-width: 100%;
-  }
-  #profile .heading .profile-heading {
-    max-height: 11rem;
-  }
-  #profile .heading .profile-pic {
-    top: 7rem;
-    width: 6rem;
-  }
-  #profile .content {
-    flex-direction: column;
-    min-width: 90%;
-  }
-  #profile .content .write-message-wrapper {
-    margin-right: 0 !important;
-  }
-  #profile .content .write-message-wrapper #write-message img {
-    width: 3rem;
-  }
-  #profile .content .write-message-wrapper #write-message .count-button {
-    padding: 0 !important;
-  }
-  #profile .content .message {
-    display: flex;
-    flex-direction: column;
-  }
-  #profile .content .message .message-img-wrapper {
-    max-width: 15%;
-    margin: 0.5rem !important;
-  }
-  #profile .content .message .message-wrapper {
-    max-width: 78%;
-  }
-  #profile .content .friends {
-    min-width: 90%;
-    align-self: center;
-  }
-  #profile .content .friends .profile-header {
-    display: flex;
-    justify-content: center;
-  }
-  #profile .content .friends .profile-header .row {
-    min-width: 15rem;
-  }
-  #profile .content .friends .friends-img {
-    width: 5rem;
-  }
-}
-@media (max-width: 780px) {
-  #index h1, #index .h1 {
-    min-width: 90%;
-  }
-  #index #write-message {
-    min-width: 90%;
-  }
-  #index #write-message img {
-    width: 3rem;
-  }
-  #index #write-message .count-button {
-    padding: 0 !important;
-  }
-  #index #write-message #word-counter {
-    margin-left: 0 !important;
-  }
-  #index .posts-wall .card {
-    min-width: 90%;
-  }
-  #index .posts-wall .message-img-wrapper {
-    max-width: 15%;
-    margin: 0.5rem !important;
-  }
-  #index .posts-wall .message-wrapper {
-    max-width: 78%;
-  }
-}
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -7383,10 +7304,6 @@ textarea.form-control-lg {
   height: 75% !important;
 }
 
-.h-85 {
-  height: 85% !important;
-}
-
 .h-100 {
   height: 100% !important;
 }
@@ -10904,6 +10821,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  background-color: #b0e0c4;
 }
 
 /*# sourceMappingURL=style.css.map */

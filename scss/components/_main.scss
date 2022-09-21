@@ -1,5 +1,5 @@
 main {
-    background-color: $quaternary;
+    background-color: $tertiary;
 
     #write-message {
         border: solid 1px $primary;
@@ -28,6 +28,7 @@ main {
     .profile-pic {
         position: absolute;
         top: 9rem;
+        width: 9rem;
     }
 
     .friends {

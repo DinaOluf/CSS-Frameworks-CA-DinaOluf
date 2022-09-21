@@ -1,8 +1,11 @@
 @import "./components/colors";
 @import "./components/variables";
-@import "./components/utilities";
 @import "./components/header";
 @import "./components/main";
 @import "./components/footer";
-@import "./components/media-queries";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+body {
+    background-color: $tertiary;
+}
